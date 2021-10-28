@@ -1,0 +1,119 @@
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    	font-size: 100%;
+    	width: 600px;
+    	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid 3px;
+	border-color: #931420;
+	background-color: #fffded;
+}
+html{
+	background-color: white;
+
+}
+/* the styles for the header */
+header img {
+	padding-right: 30px;
+	padding-left: 30px;
+}
+header{
+	border-bottom: solid 3px;
+	border-color: #931420;
+	background-color: #fffded;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	background: linear-gradient(30deg, #f6bb73, #f6bb73, white, #f6bb73, #f6bb73);
+}
+header h1{	
+	border-top: solid 3px;
+        border-color: #931420;
+        background-color: #fffded;
+        border-bottom: solid 3px;
+}
+header h2{
+	font-size: 170%;
+	color: #800000;
+	text-indent: 30px;
+}
+header h3{
+	font-size: 130%;
+	font-style: italic;
+	text-indent: 30px;
+}
+/* the styles for the section */
+main{
+	clear: left;
+	padding-right: 30px;
+	padding-left: 30px;
+	
+}
+main h1{
+	padding-top: .3em;
+	padding-bottom: .3em;
+	border-top: solid 3px;
+	border-bottom: solid 3px;
+	border-color: #931420;
+	background-color: #931420;
+	font-size: 150%;
+	border-style: double;
+	border-radius: 25px;
+	padding: 20px;
+	height: 20px;
+	box-shadow: 5px 10px #800000;
+}
+main h2{
+	padding-top: .5em;
+	padding-bottom: .25em;
+	font-size: 150%;
+	color: #800000;
+}
+main h3{
+	padding-bottom: .25em;
+	font-size: 105%;
+}
+main img{
+	padding-bottom: 1em;
+}
+main p{
+	padding-bottom: .5em;
+}
+main blockquote{
+	padding-right: 2em;
+	padding-left: 2em;
+}
+main ul {
+	padding-bottom: .25em;
+	padding-left: 1.25em;
+}
+main li{
+	padding-bottom: .35em;
+}
+/* the styles for the footer */
+footer{	
+        border-top: solid 3px;
+        border-color: #931420;
+        background-color: #931420;
+        border-bottom: solid 3px;
+	color: white;
+}
+footer p{
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: center;
+}
+blockquote{
+	font-style: italic;
+}
+a:hover{
+	font-style: italic;
+}
+a:focus{
+	font-style: italic;
+}
+.shadow{
+	text-shadow: #800000;
+}
